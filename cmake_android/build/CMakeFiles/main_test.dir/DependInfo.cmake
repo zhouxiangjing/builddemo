@@ -10,8 +10,6 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "E:/android/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include"
-  "E:/android/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++abi/include"
   )
 
 # Targets to which this target links.

@@ -23,15 +23,16 @@ fi
 
 
 echo "开始编译CMakeLists.txt"
+NDK21="E:/android/ndk/android-ndk-r21e"
 cmake -G "Unix Makefiles" .. \
     -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_TOOLCHAIN_FILE=$NDK18/build/cmake/android.toolchain.cmake \
-    -DCMAKE_MAKE_PROGRAM=$NDK18/prebuilt/windows-x86_64/bin/make.exe \
+    -DCMAKE_TOOLCHAIN_FILE=$NDK21/build/cmake/android.toolchain.cmake \
+    -DCMAKE_MAKE_PROGRAM=$NDK21/prebuilt/windows-x86_64/bin/make.exe \
     -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=bin \
     -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=bin \
     -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=bin \
-    -DANDROID_NDK=$NDK18 \
-    -DANDROID_PLATFORM=android-16 \
+    -DANDROID_NDK=$NDK21 \
+    -DANDROID_PLATFORM=android-29 \
     -DANDROID_ARM_NEON=TRUE \
     -DANDROID_TOOLCHAIN=clang \
     -DANDROID_STL=c++_static \
@@ -41,8 +42,8 @@ cmake -G "Unix Makefiles" .. \
     
 	
 echo "开始编译Makefile"
-$NDK18/prebuilt/windows-x86_64/bin/make.exe -j4
+$NDK21/prebuilt/windows-x86_64/bin/make.exe -j4
 
 echo "退出编译目录"
 cd -
-# read anykey
+read anykey

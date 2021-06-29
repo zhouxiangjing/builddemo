@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "E:/android/ndk/android-ndk-r18b/build/cmake/android.toolchain.cmake"
-  "E:/android/ndk/android-ndk-r18b/build/cmake/platforms.cmake"
+  "E:/android/ndk/android-ndk-r21e/build/cmake/android.toolchain.cmake"
+  "E:/android/ndk/android-ndk-r21e/build/cmake/platforms.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
