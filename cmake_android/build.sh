@@ -25,12 +25,12 @@ fi
 echo "开始编译CMakeLists.txt"
 cmake -G "Unix Makefiles" .. \
     -DCMAKE_BUILD_TYPE=Release \
-	-DCMAKE_TOOLCHAIN_FILE=$NDK18/build/cmake/android.toolchain.cmake \
+    -DCMAKE_TOOLCHAIN_FILE=$NDK18/build/cmake/android.toolchain.cmake \
     -DCMAKE_MAKE_PROGRAM=$NDK18/prebuilt/windows-x86_64/bin/make.exe \
     -DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=bin \
     -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=bin \
     -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=bin \
-	-DANDROID_NDK=$NDK18 \
+    -DANDROID_NDK=$NDK18 \
     -DANDROID_PLATFORM=android-16 \
     -DANDROID_ARM_NEON=TRUE \
     -DANDROID_TOOLCHAIN=clang \
@@ -45,3 +45,4 @@ $NDK18/prebuilt/windows-x86_64/bin/make.exe -j4
 
 echo "退出编译目录"
 cd -
+# read anykey

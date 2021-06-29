@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/demo/builddemo/cmake_android/main.cpp" "F:/demo/builddemo/cmake_android/build/CMakeFiles/main_test.dir/main.cpp.o"
+  "E:/zlz_work/builddemo/cmake_android/main.cpp" "E:/zlz_work/builddemo/cmake_android/build/CMakeFiles/main_test.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

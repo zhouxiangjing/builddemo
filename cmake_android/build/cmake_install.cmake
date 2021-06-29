@@ -1,4 +1,4 @@
-# Install script for directory: F:/demo/builddemo/cmake_android
+# Install script for directory: E:/zlz_work/builddemo/cmake_android
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/demo/builddemo/cmake_android/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/zlz_work/builddemo/cmake_android/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
