@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/android/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include/__config
+features.h
+-
+sys/endian.h
+-
+sys/endian.h
+-
+winapifamily.h
+-
+sys/isa_defs.h
+-
+endian.h
+-
+
+E:/android/ndk/android-ndk-r18b/sources/cxx-stl/llvm-libc++/include/stdio.h
+__config
+-
+
+F:/demo/builddemo/cmake_android/main.cpp
+stdio.h
+-
+

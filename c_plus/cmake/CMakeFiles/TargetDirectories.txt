@@ -1,0 +1,5 @@
+F:/demo/builddemo/cmake/CMakeFiles/main.dir
+F:/demo/builddemo/cmake/CMakeFiles/ALL_BUILD.dir
+F:/demo/builddemo/cmake/CMakeFiles/ZERO_CHECK.dir
+F:/demo/builddemo/cmake/shareadlib/CMakeFiles/shareadlib.dir
+F:/demo/builddemo/cmake/staticlib/CMakeFiles/staticlib.dir

@@ -1,0 +1,4 @@
+﻿  Checking Build System
+  CMake does not need to re-run because F:/demo/builddemo/cmake/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because F:/demo/builddemo/cmake/shareadlib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because F:/demo/builddemo/cmake/staticlib/CMakeFiles/generate.stamp is up-to-date.

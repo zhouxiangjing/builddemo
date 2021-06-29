@@ -1,0 +1,9 @@
+﻿  Building Custom Rule F:/demo/builddemo/cmake/staticlib/CMakeLists.txt
+  CMake does not need to re-run because F:/demo/builddemo/cmake/staticlib/CMakeFiles/generate.stamp is up-to-date.
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27030.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /IF:\demo\builddemo\cmake\include /IF:\demo\builddemo\cmake\shareadlib /IF:\demo\builddemo\cmake\staticlib /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"staticlib.dir\Debug\\" /Fd"staticlib.dir\Debug\staticlib.pdb" /Gd /TP /analyze- /errorReport:prompt F:\demo\builddemo\cmake\staticlib\staticlib.cpp
+  
+  staticlib.cpp
+  staticlib.vcxproj -> F:\demo\builddemo\cmake\staticlib\Debug\staticlib.lib
